@@ -9,7 +9,7 @@
 </p>
 
 <p align='center'>
-  <img src="https://komarev.com/ghpvc/?username=mr94t3z&label=Views&color=129e00&style=plastic" alt="mr94t3z" />
+  <img src="https://komarev.com/ghpvc/?username=0x94t3z&label=Views&color=129e00&style=plastic" alt="0x94t3z" />
   <br>
 </p>
 
@@ -75,16 +75,12 @@
 
 ## Experience
 
-- 👨‍💻 **Blockchain Developer**\
-📆 2021 - Present\
-📍 **L1 and L2 Chain** - Vibestcity, Indonesian
-
 - ⚙️ **Backend Developer**\
-📆 2022 - Present\
+📆 2022 - 2023\
 📍 **PTIPD UIN Sunan Gunung Djati** - Bandung, Indonesian
 
-- 🐸 **Farcaster Developer**\
+- 🐸 **Farcaster Builder**\
 📆 2024 - Present\
-📍 **L2 Chain** - Warpcity, Universal
+📍 **L2 Chain** - Warpcity, farcaster.xyz
   
 </details>

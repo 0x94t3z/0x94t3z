@@ -60,7 +60,7 @@
 </p>-->
 
 <p align='center'>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mr94t3z&theme=dark" alt="mr94t3z" />
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=0x94t3z&theme=dark" alt="0x94t3z" />
 </p>
 
 <details>

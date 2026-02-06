@@ -59,9 +59,13 @@
   📫 How to reach me: <a href='mailto:mr.94t3z@gmail.com'>mr.94t3z@gmail.com</a>
 </p>-->
 
-<!--<p align='center'>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=0x94t3z&theme=dark" alt="0x94t3z" />
-</p>-->
+<p align='center'>
+  <!--<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=0x94t3z&theme=dark" alt="0x94t3z" />-->
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=0x94t3z&theme=dark" alt="GitHub Streak" />
+</p>
+
+<img width="468" height="11" alt="image" src="https://github.com/user-attachments/assets/2addd9fb-4437-431a-929c-2d73e73c5a3a" />
+
 
 <details>
   <summary>📃 Resume</summary>

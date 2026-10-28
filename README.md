@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-I am a Backend & Software Developer at CodeCore Dynamics LLC, based in Bandung, Indonesia. My work focuses on APIs, background jobs, and data pipelines. Since 2024, I have also built Farcaster mini apps and on-chain automation on Base, Arbitrum, and Polygon.
+I am a Backend & Software Developer at CodeCore Dynamics LLC, based in Bandung, Indonesia. My work covers the full range of backend development. Since 2024, I have also built Farcaster mini apps and on-chain automation on Base, Arbitrum, and Polygon.
 
 ## Tools
 
@@ -23,7 +23,7 @@ I am a Backend & Software Developer at CodeCore Dynamics LLC, based in Bandung, 
 ### Experience
 
 - **Backend & Software Developer**, CodeCore Dynamics LLC · Oct 2026 – Present · Remote
-- **Web3 Developer (Freelance)**, Farcaster and on-chain bounties · 2024 – Present · Remote
+- **Web3 Developer**, Farcaster and on-chain bounties · 2024 – Present · Remote
 - **Backend Developer**, PTIPD UIN Sunan Gunung Djati, Bandung · Jun 2022 – Jan 2023
 - **IT Intern**, Politeknik Pos Indonesia · Jan 2018 – Mar 2018
 

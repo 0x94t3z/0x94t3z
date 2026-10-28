@@ -26,6 +26,11 @@
     .terminator { transform-box: fill-box; transform-origin: center; animation: phase 32s cubic-bezier(.65,0,.35,1) infinite alternate; }
     @keyframes phase { from { transform: scaleX(.78); } to { transform: scaleX(.38); } }
 
+    /* Twinkle on half the main cycle; negative delays spread the stars across
+       the beat so they never pulse in unison. */
+    .star { fill: #e6edf3; opacity: .55; animation: twinkle 4s ease-in-out infinite; }
+    @keyframes twinkle { 0%, 100% { opacity: .2; } 50% { opacity: .95; } }
+
     @keyframes b0 {
       0% { stroke: #3d444d; }
       7.5% { stroke: #3d444d; animation-timing-function: linear; }
@@ -94,6 +99,15 @@
       * { animation: none !important; }
     }
   </style>
+
+  <circle class="star" style="animation-delay: -0s" cx="112" cy="16" r="1.8"/>
+  <circle class="star" style="animation-delay: -2.5s" cx="8" cy="104" r="1.4"/>
+  <circle class="star" style="animation-delay: -1s" cx="118" cy="122" r="1.5"/>
+  <circle class="star" style="animation-delay: -3s" cx="470" cy="20" r="1.4"/>
+  <circle class="star" style="animation-delay: -1.5s" cx="702" cy="36" r="2.0"/>
+  <circle class="star" style="animation-delay: -3.5s" cx="786" cy="92" r="1.5"/>
+  <circle class="star" style="animation-delay: -0.5s" cx="690" cy="124" r="1.4"/>
+  <circle class="star" style="animation-delay: -2s" cx="814" cy="16" r="1.7"/>
 
   <defs>
     <clipPath id="disc"><circle cx="60" cy="70" r="42"/></clipPath>

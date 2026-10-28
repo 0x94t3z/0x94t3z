@@ -39,9 +39,9 @@ def keyframes(name, stops, total):
 
 PALETTES = {
     "dark": dict(fg="#e6edf3", muted="#9198a1", line="#3d444d", accent="#3fb950",
-                 lit="#ece6d6", shade="#17243f", rim="#3d444d"),
+                 lit="#ece6d6", shade="#17243f", rim="#3d444d", star="#e6edf3"),
     "light": dict(fg="#1f2328", muted="#59636e", line="#d1d9e0", accent="#1a7f37",
-                  lit="#efe3bf", shade="#17243f", rim="#c8d1da"),
+                  lit="#efe3bf", shade="#17243f", rim="#c8d1da", star="#6e7781"),
 }
 
 CHAIN = [
@@ -60,6 +60,10 @@ WAVE_STEP = 0.55
 BLOCK_X0, BLOCK_W, BLOCK_GAP, BLOCK_Y, BLOCK_H = 18, 140, 26, 146, 52
 LINK_LEN = BLOCK_GAP
 MOON = dict(cx=60, cy=70, r=42)
+# Stars only sit in empty sky: around the moon and right of the text.
+# (x, y, radius, phase offset in quarter-beats of the twinkle)
+STARS = [(112, 16, 1.8, 0), (8, 104, 1.4, 5), (118, 122, 1.5, 2), (470, 20, 1.4, 6),
+         (702, 36, 2.0, 3), (786, 92, 1.5, 7), (690, 124, 1.4, 1), (814, 16, 1.7, 4)]
 
 
 def header(p):
@@ -115,6 +119,9 @@ def header(p):
         )
 
     m = MOON
+    stars = "\n".join(
+        f'  <circle class="star" style="animation-delay: -{k * CYCLE / 16:g}s" cx="{x}" cy="{y}" r="{r}"/>'
+        for x, y, r, k in STARS)
     alt = ", ".join(f"{y} {label}" for y, label in CHAIN)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="214" viewBox="0 0 {WIDTH} 214" role="img" aria-labelledby="title desc">
   <title id="title">Muhamad Taopik, Backend &amp; Software Developer</title>
@@ -144,12 +151,19 @@ def header(p):
     .terminator {{ transform-box: fill-box; transform-origin: center; animation: phase {CYCLE * 4:g}s {IN_OUT} infinite alternate; }}
     @keyframes phase {{ from {{ transform: scaleX(.78); }} to {{ transform: scaleX(.38); }} }}
 
+    /* Twinkle on half the main cycle; negative delays spread the stars across
+       the beat so they never pulse in unison. */
+    .star {{ fill: {p['star']}; opacity: .55; animation: twinkle {CYCLE / 2:g}s ease-in-out infinite; }}
+    @keyframes twinkle {{ 0%, 100% {{ opacity: .2; }} 50% {{ opacity: .95; }} }}
+
 {chr(10).join(css)}
 
     @media (prefers-reduced-motion: reduce) {{
       * {{ animation: none !important; }}
     }}
   </style>
+
+{stars}
 
   <defs>
     <clipPath id="disc"><circle cx="{m['cx']}" cy="{m['cy']}" r="{m['r']}"/></clipPath>

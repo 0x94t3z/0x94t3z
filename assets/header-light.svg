@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="214" viewBox="0 0 840 214" role="img" aria-labelledby="title desc">
+  <title id="title">Muhamad Taopik, Backend &amp; Software Developer</title>
+  <desc id="desc">A crescent moon slowly changes phase. Below it, a chain of milestones (2018 IT Intern, 2019 Informatics, 2022 Backend, 2024 Web3, 2026 CodeCore) lights up from the first block to the current one.</desc>
+  <style>
+    text { font-family: ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+    .name { font-size: 34px; font-weight: 700; fill: #1f2328; letter-spacing: -0.5px; }
+    .sub { font-size: 15px; fill: #59636e; }
+    .tag { font-size: 11px; fill: #59636e; }
+    .now { fill: #1a7f37; }
+    .label { font-size: 14px; fill: #1f2328; }
+
+    /* Fills stay transparent so blocks sit on dark, dark dimmed and light alike. */
+    .blk { fill: none; stroke: #d1d9e0; stroke-width: 1.25; animation-duration: 8.0s; animation-iteration-count: infinite; }
+    .link { stroke: #d1d9e0; stroke-width: 1.5; }
+    .pulse { stroke: #1a7f37; stroke-width: 2; stroke-dasharray: 26 26; stroke-dashoffset: 26;
+             animation-duration: 8.0s; animation-iteration-count: infinite; }
+
+    /* The head block is still being mined: a slow dash march on a beat that
+       divides the main cycle evenly. */
+    .head { fill: #1a7f37; fill-opacity: 0; stroke: #1a7f37; stroke-width: 1.25; stroke-dasharray: 6 4;
+            animation: march 1s linear infinite, arrive 8.0s infinite; }
+    @keyframes march { to { stroke-dashoffset: -10; } }
+
+    /* Real lunar terminator: a half-ellipse whose width follows the phase,
+       on a slow ambient layer at four times the main cycle. */
+    .terminator { transform-box: fill-box; transform-origin: center; animation: phase 32s cubic-bezier(.65,0,.35,1) infinite alternate; }
+    @keyframes phase { from { transform: scaleX(.78); } to { transform: scaleX(.38); } }
+
+    @keyframes b0 {
+      0% { stroke: #d1d9e0; }
+      7.5% { stroke: #d1d9e0; animation-timing-function: linear; }
+      8.5% { stroke: #1a7f37; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      25% { stroke: #d1d9e0; }
+      100% { stroke: #d1d9e0; }
+    }
+    @keyframes l0 {
+      0% { stroke-dashoffset: 26; }
+      8.75% { stroke-dashoffset: 26; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      14.375% { stroke-dashoffset: 0; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      18.75% { stroke-dashoffset: -26; }
+      100% { stroke-dashoffset: -26; }
+    }
+    @keyframes b1 {
+      0% { stroke: #d1d9e0; }
+      14.375% { stroke: #d1d9e0; animation-timing-function: linear; }
+      15.375% { stroke: #1a7f37; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      31.875% { stroke: #d1d9e0; }
+      100% { stroke: #d1d9e0; }
+    }
+    @keyframes l1 {
+      0% { stroke-dashoffset: 26; }
+      15.625% { stroke-dashoffset: 26; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      21.25% { stroke-dashoffset: 0; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      25.625% { stroke-dashoffset: -26; }
+      100% { stroke-dashoffset: -26; }
+    }
+    @keyframes b2 {
+      0% { stroke: #d1d9e0; }
+      21.25% { stroke: #d1d9e0; animation-timing-function: linear; }
+      22.25% { stroke: #1a7f37; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      38.75% { stroke: #d1d9e0; }
+      100% { stroke: #d1d9e0; }
+    }
+    @keyframes l2 {
+      0% { stroke-dashoffset: 26; }
+      22.5% { stroke-dashoffset: 26; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      28.125% { stroke-dashoffset: 0; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      32.5% { stroke-dashoffset: -26; }
+      100% { stroke-dashoffset: -26; }
+    }
+    @keyframes b3 {
+      0% { stroke: #d1d9e0; }
+      28.125% { stroke: #d1d9e0; animation-timing-function: linear; }
+      29.125% { stroke: #1a7f37; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      45.625% { stroke: #d1d9e0; }
+      100% { stroke: #d1d9e0; }
+    }
+    @keyframes l3 {
+      0% { stroke-dashoffset: 26; }
+      29.375% { stroke-dashoffset: 26; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      35% { stroke-dashoffset: 0; animation-timing-function: cubic-bezier(.65,0,.35,1); }
+      39.375% { stroke-dashoffset: -26; }
+      100% { stroke-dashoffset: -26; }
+    }
+    @keyframes arrive {
+      0% { fill-opacity: 0; }
+      35% { fill-opacity: 0; animation-timing-function: linear; }
+      36% { fill-opacity: .16; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      55% { fill-opacity: 0; }
+      100% { fill-opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="disc"><circle cx="60" cy="70" r="42"/></clipPath>
+  </defs>
+  <g clip-path="url(#disc)">
+    <rect x="18" y="28" width="84" height="84" fill="#17243f"/>
+    <rect x="60" y="28" width="42" height="84" fill="#efe3bf"/>
+    <ellipse class="terminator" cx="60" cy="70" rx="42" ry="43" fill="#17243f"/>
+  </g>
+  <circle cx="60" cy="70" r="42" fill="none" stroke="#c8d1da"/>
+
+  <text class="name" x="130" y="66">Muhamad Taopik</text>
+  <text class="sub" x="130" y="98">Backend &amp; Software Developer based in Bandung, Indonesia</text>
+
+  <g>
+    <line class="link" x1="158" y1="172.0" x2="184" y2="172.0"/>
+    <line class="pulse" style="animation-name: l0" x1="158" y1="172.0" x2="184" y2="172.0"/>
+    <line class="link" x1="324" y1="172.0" x2="350" y2="172.0"/>
+    <line class="pulse" style="animation-name: l1" x1="324" y1="172.0" x2="350" y2="172.0"/>
+    <line class="link" x1="490" y1="172.0" x2="516" y2="172.0"/>
+    <line class="pulse" style="animation-name: l2" x1="490" y1="172.0" x2="516" y2="172.0"/>
+    <line class="link" x1="656" y1="172.0" x2="682" y2="172.0"/>
+    <line class="pulse" style="animation-name: l3" x1="656" y1="172.0" x2="682" y2="172.0"/>
+    <rect class="blk" style="animation-name: b0" x="18" y="146" width="140" height="52" rx="8"/>
+    <text class="tag" x="32" y="166">#0 · 2018</text>
+    <text class="label" x="32" y="186">IT Intern</text>
+    <rect class="blk" style="animation-name: b1" x="184" y="146" width="140" height="52" rx="8"/>
+    <text class="tag" x="198" y="166">#1 · 2019</text>
+    <text class="label" x="198" y="186">Informatics</text>
+    <rect class="blk" style="animation-name: b2" x="350" y="146" width="140" height="52" rx="8"/>
+    <text class="tag" x="364" y="166">#2 · 2022</text>
+    <text class="label" x="364" y="186">Backend</text>
+    <rect class="blk" style="animation-name: b3" x="516" y="146" width="140" height="52" rx="8"/>
+    <text class="tag" x="530" y="166">#3 · 2024</text>
+    <text class="label" x="530" y="186">Web3</text>
+    <rect class="head" x="682" y="146" width="140" height="52" rx="8"/>
+    <text class="tag now" x="696" y="166">#4 · 2026</text>
+    <text class="label" x="696" y="186">CodeCore</text>
+  </g>
+</svg>

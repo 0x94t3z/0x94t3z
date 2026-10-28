@@ -1,88 +1,41 @@
-
-
-<h1 align='center'>
- Hello world 👋🏻 I'm Muhamad Taopik 🧑🏻‍💼
-</h1>
-
-<p align='center'>
-  A <strong>Blockchain Developer</strong> from Indonesia.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+    <img src="./assets/header.svg" width="100%" alt="Muhamad Taopik, Backend &amp; Software Developer based in Bandung, Indonesia. Career milestones shown as a chain: 2018 IT intern, 2019 Informatics, 2022 Backend, 2024 Web3, and 2026 CodeCore (current)." />
+  </picture>
 </p>
 
-<p align='center'>
-  <img src="https://komarev.com/ghpvc/?username=0x94t3z&label=Views&color=129e00&style=plastic" alt="0x94t3z" />
-  <br>
-</p>
+I am a Backend & Software Developer at CodeCore Dynamics LLC, based in Bandung, Indonesia. My work focuses on APIs, background jobs, and data pipelines. Since 2024, I have also built Farcaster mini apps and on-chain automation on Base, Arbitrum, and Polygon.
 
+## Tools
 
-<!--
-<p align='center'>
-  
- <a href="https://www.facebook.com/mr.94t3z">
-  <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" />        
- </a>&nbsp;&nbsp;
- 
- <a href="https://www.instagram.com/m.taopik_/">
-  <img src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> 
- </a>&nbsp;&nbsp;
- 
- <a href="https://www.linkedin.com/in/muhamad-taopik-8b0746174">
-  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
- </a>&nbsp;&nbsp;
- 
- <a href="https://twitter.com/0x94t3z">
-  <img src="https://img.shields.io/twitter/follow/0x94t3z?color=1DA1F2&logo=twitter&style=for-the-badge" />
- </a>&nbsp;&nbsp;
-  
-</p>
--->
-
-<!--
-<p align='center'>
-  <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=mr94t3z&show_icons=true&count_private=true&theme=dark" width="350"></a>
-</p>
--->
-
-<p align='center'>
-  💻 My workspace<br/><br/>
-  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=MacBook&color=000000&logo=Apple&logoColor=FFFFFF&label=Air" />
-  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Chip&color=000000&logo=Apple+Arcade&logoColor=FFFFFF&label=M1" />
-  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Ram&color=000000&logo=Ram&logoColor=FFFFFF&label=8GB" />
-</p>
-
-<!--
-<p align='center'>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mr94t3z&show_icons=true&locale=en&layout=compact&theme=dark" alt="mr94t3z" />
-</p>
--->
-
-<!--<p align='center'>
-  📫 How to reach me: <a href='mailto:mr.94t3z@gmail.com'>mr.94t3z@gmail.com</a>
-</p>-->
-
- <!--<p align='center'>
-  <!--<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=0x94t3z&theme=dark" alt="0x94t3z" />-->
-  <!--<img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=0x94t3z&theme=dark" alt="GitHub Streak" />
-</p>-->
-
+![TypeScript](https://img.shields.io/badge/TypeScript-backend-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=555555)
+![Node.js](https://img.shields.io/badge/Node.js-APIs-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=555555)
+![Python](https://img.shields.io/badge/Python-automation-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=555555)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-database-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=555555)
+![Docker](https://img.shields.io/badge/Docker-deploy-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=555555)
+![Farcaster](https://img.shields.io/badge/Farcaster-mini_apps-855DCD?style=flat-square&logo=farcaster&logoColor=white&labelColor=555555)
 
 <details>
-  <summary>📃 Resume</summary>
+  <summary><b>Resume</b></summary>
 
+### Experience
 
-## Education
+- **Backend & Software Developer**, CodeCore Dynamics LLC · Oct 2026 – Present · Remote
+- **Web3 Developer**, Farcaster and on-chain systems · 2024 – Present
+- **Backend Developer**, PTIPD UIN Sunan Gunung Djati, Bandung · Jun 2022 – Jan 2023
+- **IT Intern**, Politeknik Pos Indonesia · Jan 2018 – Mar 2018
 
-- 📖 **Informatics Engineering**\
-📆 2019 - Present\
-📍 **State Islamic University** - Sunan Gunung Djati, Bandung
+### Education
 
-## Experience
+- **Bachelor of Informatics Engineering (S1)**, UIN Sunan Gunung Djati, Bandung
+- **Software Engineering**, SMKN 1 Lemahsugih · 2016 – 2019
 
-- ⚙️ **Backend Developer**\
-📆 2022 - 2023\
-📍 **PTIPD UIN Sunan Gunung Djati** - Bandung, Indonesian
-
-- 🐸 **Farcaster Builder**\
-📆 2024 - Present\
-📍 **L2 Chain** - Warpcity, farcaster.xyz
-  
 </details>
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="A pixel frog hopping back and forth along a row of blocks. Each block lights up when the frog lands on it." />
+  <br /><br />
+  <img src="https://komarev.com/ghpvc/?username=0x94t3z&label=views&color=3fb950&style=flat-square" alt="profile views" />
+</p>

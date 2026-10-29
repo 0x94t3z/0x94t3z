@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-I am a Backend & Software Developer at CodeCore Dynamics LLC, based in Bandung, Indonesia. My work covers the full range of backend development. Since 2024, I have also built Farcaster mini apps and on-chain automation on Base, Arbitrum, and Polygon.
+I am a Backend & Software Developer at CodeCore Dynamics LLC. My work covers the full range of backend development. Since 2024, I have also built Farcaster mini apps and on-chain automation on Base, Arbitrum, and Polygon.
 
 ## Tools
 

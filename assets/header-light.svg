@@ -112,7 +112,7 @@
   <circle cx="60" cy="70" r="42" fill="none" stroke="#c8d1da"/>
 
   <text class="name" x="130" y="66">Muhamad Taopik</text>
-  <text class="sub" x="130" y="98">Backend &amp; Software Developer based in Bandung, Indonesia</text>
+  <text class="sub" x="130" y="98">Backend &amp; Software Developer</text>
 
   <g>
     <line class="link" x1="158" y1="172.0" x2="184" y2="172.0"/>

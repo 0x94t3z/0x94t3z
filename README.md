@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-    <img src="./assets/header.svg" width="100%" alt="Muhamad Taopik, Backend &amp; Software Developer based in Bandung, Indonesia. Career milestones shown as a chain: 2018 IT intern, 2019 Informatics, 2022 Backend, 2024 Web3, and 2026 CodeCore (current)." />
+    <img src="./assets/header.svg" width="100%" alt="Muhamad Taopik, Backend &amp; Software Developer. Career milestones shown as a chain: 2018 IT intern, 2019 Informatics, 2022 Backend, 2024 Web3, and 2026 CodeCore (current)." />
   </picture>
 </p>
 

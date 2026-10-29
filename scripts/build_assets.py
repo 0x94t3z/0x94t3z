@@ -173,7 +173,7 @@ def header(p):
   <circle cx="{m['cx']}" cy="{m['cy']}" r="{m['r']}" fill="none" stroke="{p['rim']}"/>
 
   <text class="name" x="130" y="66">Muhamad Taopik</text>
-  <text class="sub" x="130" y="98">Backend &amp; Software Developer based in Bandung, Indonesia</text>
+  <text class="sub" x="130" y="98">Backend &amp; Software Developer</text>
 
   <g>
 {chr(10).join(links)}
